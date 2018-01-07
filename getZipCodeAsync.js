@@ -1,3 +1,11 @@
+import Secret from './Secret';
+
+/*
+  Secret.js
+
+  export default "API_KEY";
+*/
+
 const key = 'debug'; // Get a Google Maps API Key
 
 import Geocoder from 'react-native-geocoding'; // 0.2.0
@@ -17,7 +25,7 @@ async function getZipCodeAsync({ latitude, longitude }) {
   };
 
   if (key === 'debug') {
-    return '78701';
+    return '78701'; /// this is Austin, Texas
   }
 
   return new Promise((res, rej) =>
