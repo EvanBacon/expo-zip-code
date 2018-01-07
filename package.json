@@ -1,0 +1,23 @@
+{
+  "name": "zip-code",
+  "version": "0.0.0",
+  "description": "Shows you which zip code you are in!",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "expo": "^24.0.0",
+    "react": "16.0.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-24.0.0.tar.gz",
+    "@expo/vector-icons": "6.2.1",
+    "@rematch/core": "0.1.0-beta.8",
+    "expo-asset-utils": "0.0.0",
+    "prop-types": "15.6.0",
+    "react-native-elements": "0.17.0",
+    "react-native-geocoding": "0.2.0",
+    "react-native-maps": "0.19.0",
+    "react-redux": "5.0.6",
+    "redux": "3.7.2",
+    "uuid": "3.1.0"
+  }
+}
