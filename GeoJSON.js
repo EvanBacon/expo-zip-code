@@ -1,3 +1,4 @@
+///// from here https://www.npmjs.com/package/react-native-geojson but proptypes is broken so im boojie coding it 
 import React, { Component } from 'react';
 import { View } from 'react-native';
 import { MapView } from 'expo'; // 0.19.0
